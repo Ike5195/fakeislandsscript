@@ -1,0 +1,77 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local ScreenGui = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local TextLabel = Instance.new("TextLabel")
+local UICorner = Instance.new("UICorner")
+local TextButton = Instance.new("TextButton")
+local UICorner_2 = Instance.new("UICorner")
+local UICorner_3 = Instance.new("UICorner")
+local TextButton_2 = Instance.new("TextButton")
+local UICorner_4 = Instance.new("UICorner")
+local TextButton_3 = Instance.new("TextButton")
+local UICorner_5 = Instance.new("UICorner")
+
+--Properties:
+
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+ScreenGui.ResetOnSpawn = false
+
+Frame.Parent = ScreenGui
+Frame.BackgroundColor3 = Color3.fromRGB(180, 180, 180)
+Frame.Position = UDim2.new(0.235258415, 0, 0.26859504, 0)
+Frame.Size = UDim2.new(0, 286, 0, 121)
+Frame.Active = true
+Frame.Draggable = true
+
+TextLabel.Parent = Frame
+TextLabel.BackgroundColor3 = Color3.fromRGB(129, 129, 129)
+TextLabel.Size = UDim2.new(0, 286, 0, 31)
+TextLabel.Font = Enum.Font.SourceSansBold
+TextLabel.Text = "Islands Scam Scripts by Ike#5195"
+TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.TextSize = 20.000
+
+UICorner.Parent = TextLabel
+
+TextButton.Parent = Frame
+TextButton.BackgroundColor3 = Color3.fromRGB(129, 129, 129)
+TextButton.Position = UDim2.new(0.0417523161, 0, 0.295014262, 0)
+TextButton.Size = UDim2.new(0, 125, 0, 30)
+TextButton.Font = Enum.Font.SourceSansBold
+TextButton.Text = "Trade Scam Script"
+TextButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton.TextSize = 17.000
+TextButton.TextWrapped = true
+
+UICorner_2.Parent = TextButton
+
+UICorner_3.Parent = Frame
+
+TextButton_2.Parent = Frame
+TextButton_2.BackgroundColor3 = Color3.fromRGB(129, 129, 129)
+TextButton_2.Position = UDim2.new(0.517276764, 0, 0.295014262, 0)
+TextButton_2.Size = UDim2.new(0, 125, 0, 30)
+TextButton_2.Font = Enum.Font.SourceSansBold
+TextButton_2.Text = "Crash Dupe Script"
+TextButton_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_2.TextSize = 17.000
+TextButton_2.TextWrapped = true
+
+UICorner_4.Parent = TextButton_2
+
+TextButton_3.Parent = Frame
+TextButton_3.BackgroundColor3 = Color3.fromRGB(129, 129, 129)
+TextButton_3.Position = UDim2.new(0.0417523161, 0, 0.607705295, 0)
+TextButton_3.Size = UDim2.new(0, 261, 0, 39)
+TextButton_3.Font = Enum.Font.SourceSansBold
+TextButton_3.Text = "Bank Stealer Gen Script"
+TextButton_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_3.TextSize = 17.000
+TextButton_3.TextWrapped = true
+
+UICorner_5.Parent = TextButton_3
